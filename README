@@ -1,3 +1,4 @@
+Initialise virtual environment in terminal
 python -m venv .venv
 
 Activate it
