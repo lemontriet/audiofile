@@ -1,0 +1,10 @@
+python -m venv .venv
+
+Activate it
+.venv\Scripts\activate
+
+Install dependencies (includes bundled ffmpeg)
+pip install -r requirements.txt
+
+Run
+python transcribe.py "your_audio_file.mp3"
